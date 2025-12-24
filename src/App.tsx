@@ -1,4 +1,4 @@
-import ToggleSwitch from "@/components/ToggleSwitch";
+import MainPoster from "@/components/MainPoster";
 import { useMode } from "@/context/ModeContext";
 import { cn } from "@/lib/utils";
 
@@ -12,7 +12,7 @@ function App() {
         mode === "band" ? "band-background" : "vocal-background"
       )}
     >
-      <ToggleSwitch />
+      <MainPoster />
     </div>
   );
 }

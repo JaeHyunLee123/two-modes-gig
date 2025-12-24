@@ -15,6 +15,20 @@
   background-position: center;
 }
 
+.band-poster {
+  background-image: url("/src/assets/poster/band-content.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.vocal-poster {
+  background-image: url("/src/assets/poster/vocal-content.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
 @custom-variant dark (&:is(.dark *));
 
 @theme inline {
