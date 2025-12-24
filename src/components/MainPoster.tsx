@@ -7,7 +7,7 @@ export default function MainPoster() {
   return (
     <div
       className={cn(
-        "w-full max-w-sm flex h-full items-end justify-center p-20 transition-all duration-300",
+        "w-full max-w-sm flex h-screen items-end justify-center p-20 transition-all duration-300",
         mode === "band" ? "band-poster" : "vocal-poster"
       )}
     >
