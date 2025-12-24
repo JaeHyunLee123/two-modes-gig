@@ -12,7 +12,7 @@ export default function SetList({ setList }: SetListProps) {
   return (
     <div
       className={cn(
-        "flex flex-col items-center justify-center gap-2",
+        "flex flex-col items-center justify-center gap-2 h-screen",
         mode === "band" ? "text-white" : "text-black"
       )}
     >

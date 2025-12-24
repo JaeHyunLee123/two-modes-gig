@@ -10,17 +10,25 @@ function App() {
   return (
     <div
       className={cn(
-        "py-2 flex flex-col items-center justify-center transition-all duration-300",
+        "h-screen overflow-y-scroll snap-y snap-mandatory",
         mode === "band" ? "band-background" : "vocal-background"
       )}
     >
-      <MainPoster />
+      <div className="h-screen snap-start flex items-center justify-center">
+        <MainPoster />
+      </div>
 
-      <SetList setList={halfBreakSetList} />
+      <div className="h-screen snap-start flex items-center justify-center">
+        <SetList setList={halfBreakSetList} />
+      </div>
 
-      <SetList setList={halfBreakSetList} />
+      <div className="h-screen snap-start flex items-center justify-center">
+        <SetList setList={halfBreakSetList} />
+      </div>
 
-      <SetList setList={halfBreakSetList} />
+      <div className="h-screen snap-start flex items-center justify-center">
+        <SetList setList={halfBreakSetList} />
+      </div>
     </div>
   );
 }
