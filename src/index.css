@@ -1,6 +1,20 @@
 @import "tailwindcss";
 @import "tw-animate-css";
 
+.band-background {
+  background-image: url("/src/assets/poster/band-background.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.vocal-background {
+  background-image: url("/src/assets/poster/vocal-background.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
 @custom-variant dark (&:is(.dark *));
 
 @theme inline {

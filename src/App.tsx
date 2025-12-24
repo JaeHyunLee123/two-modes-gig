@@ -1,5 +1,5 @@
 function App() {
-  return <></>;
+  return <div className="band-background h-screen"></div>;
 }
 
 export default App;
