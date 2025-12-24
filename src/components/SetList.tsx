@@ -18,7 +18,7 @@ export default function SetList({ setList }: SetListProps) {
     >
       <span className="font-semibold text-xl">{setList.bandName}</span>
       {setList.songs.map((song, i) => (
-        <span key={i}>{`${song.singer} ${song.name}`}</span>
+        <span key={i}>{`${song.singer} - ${song.name}`}</span>
       ))}
     </div>
   );
