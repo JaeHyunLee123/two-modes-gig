@@ -1,7 +1,7 @@
 import MainPoster from "@/components/MainPoster";
 import SetList from "@/components/SetList";
 import { useMode } from "@/context/ModeContext";
-import { halfBreakSetList } from "@/data";
+import { halfBreakSetList, travlerSetList, wecandersSetList } from "@/data";
 import { cn } from "@/lib/utils";
 
 function App() {
@@ -19,7 +19,7 @@ function App() {
       </div>
 
       <div className="h-screen snap-start flex items-center justify-center">
-        <SetList setList={halfBreakSetList} />
+        <SetList setList={travlerSetList} />
       </div>
 
       <div className="h-screen snap-start flex items-center justify-center">
@@ -27,7 +27,7 @@ function App() {
       </div>
 
       <div className="h-screen snap-start flex items-center justify-center">
-        <SetList setList={halfBreakSetList} />
+        <SetList setList={wecandersSetList} />
       </div>
     </div>
   );
