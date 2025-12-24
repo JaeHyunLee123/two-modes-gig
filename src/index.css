@@ -9,14 +9,14 @@
 }
 
 .vocal-background {
-  background-image: url("/src/assets/poster/vocal-background.svg");
+  background-image: url("/src/assets/poster/vocal-background-v2.svg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
 }
 
 .band-poster {
-  background-image: url("/src/assets/poster/band-content.svg");
+  background-image: url("/src/assets/poster/band-content-v2.svg");
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
