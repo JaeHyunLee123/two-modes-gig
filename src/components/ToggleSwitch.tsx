@@ -1,17 +1,13 @@
 import { cn } from "@/lib/utils";
+import { useMode } from "@/context/ModeContext";
 
-interface ToggleSwitchProps {
-  isToggled: boolean;
-  onToggle: () => void;
-}
+export default function ToggleSwitch() {
+  const { mode, toggleMode } = useMode();
+  const isToggled = mode === "band";
 
-export default function ToggleSwitch({
-  isToggled,
-  onToggle,
-}: ToggleSwitchProps) {
   return (
     <div
-      onClick={onToggle}
+      onClick={toggleMode}
       className={cn(
         "w-46 h-14 p-1 rounded-full relative cursor-pointer select-none",
         "flex items-center justify-around", // To space out the text

@@ -1,9 +1,9 @@
-import ToggleSwitch from "./components/ToggleSwitch";
-import { useMode } from "./context/ModeContext";
-import { cn } from "./lib/utils";
+import ToggleSwitch from "@/components/ToggleSwitch";
+import { useMode } from "@/context/ModeContext";
+import { cn } from "@/lib/utils";
 
 function App() {
-  const { mode, toggleMode } = useMode();
+  const { mode } = useMode();
 
   return (
     <div
@@ -12,7 +12,7 @@ function App() {
         mode === "band" ? "band-background" : "vocal-background"
       )}
     >
-      <ToggleSwitch isToggled={mode === "band"} onToggle={toggleMode} />
+      <ToggleSwitch />
     </div>
   );
 }
