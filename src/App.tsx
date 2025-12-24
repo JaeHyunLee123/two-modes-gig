@@ -10,23 +10,23 @@ function App() {
   return (
     <div
       className={cn(
-        "h-screen overflow-y-scroll snap-y snap-mandatory",
+        "h-dvh overflow-y-scroll snap-y snap-mandatory",
         mode === "band" ? "band-background" : "vocal-background"
       )}
     >
-      <div className="h-screen snap-start flex items-center justify-center">
+      <div className="h-dvh snap-start flex items-center justify-center">
         <MainPoster />
       </div>
 
-      <div className="h-screen snap-start flex items-center justify-center">
+      <div className="h-dvh snap-start flex items-center justify-center">
         <SetList setList={travlerSetList} />
       </div>
 
-      <div className="h-screen snap-start flex items-center justify-center">
+      <div className="h-dvh snap-start flex items-center justify-center">
         <SetList setList={halfBreakSetList} />
       </div>
 
-      <div className="h-screen snap-start flex items-center justify-center">
+      <div className="h-dvh snap-start flex items-center justify-center">
         <SetList setList={wecandersSetList} />
       </div>
     </div>
