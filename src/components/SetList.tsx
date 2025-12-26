@@ -16,7 +16,9 @@ export default function SetList({ setList }: SetListProps) {
         mode === "band" ? "text-white" : "text-black"
       )}
     >
-      <span className="text-4xl italianno-regular">{setList.bandName}</span>
+      <span className="text-4xl font-bold italianno-regular">
+        {setList.bandName}
+      </span>
       <ul className="flex flex-col items-center justify-center gap-2">
         {setList.songs.map((song, i) => (
           <li key={i}>{`${song.singer} - ${song.name}`}</li>
