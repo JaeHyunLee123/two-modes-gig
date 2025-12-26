@@ -7,8 +7,17 @@
   src: url("./assets/fonts/PretendardVariable.woff2");
 }
 
+@font-face {
+  font-family: "Impact";
+  src: url("./assets/fonts/unicode.impact.woff");
+}
+
 body {
   font-family: "Pretendard", serif;
+}
+
+.impact {
+  font-family: "Impact", serif;
 }
 
 .italianno-regular {
