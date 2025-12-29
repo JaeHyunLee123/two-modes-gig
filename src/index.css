@@ -1,11 +1,5 @@
 @import "tailwindcss";
 @import "tw-animate-css";
-@import url("https://fonts.googleapis.com/css2?family=Italianno&display=swap");
-
-@font-face {
-  font-family: "Pretendard";
-  src: url("./assets/fonts/PretendardVariable.woff2");
-}
 
 @font-face {
   font-family: "Impact";
@@ -13,16 +7,11 @@
 }
 
 body {
-  font-family: "Pretendard", serif;
+  font-family: "Pretendard Variable", serif;
 }
 
 .impact {
-  font-family: "Impact", serif;
-}
-
-.italianno-regular {
-  font-family: "Italianno", cursive;
-  font-style: normal;
+  font-family: "Impact", "Pretendard Variable", serif;
 }
 
 .band-background {
