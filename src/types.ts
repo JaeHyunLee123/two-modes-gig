@@ -5,5 +5,6 @@ export interface Song {
 
 export interface SetList {
   bandName: string;
+  members: string[];
   songs: Song[];
 }
