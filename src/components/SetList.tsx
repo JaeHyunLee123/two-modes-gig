@@ -1,22 +1,32 @@
 import { useMode } from "@/context/ModeContext";
+import useObserver from "@/hooks/useObserver";
 import { cn } from "@/lib/utils";
 import type { SetList as SetListType } from "@/types";
 
 interface SetListProps {
   setList: SetListType;
+  type?: "band" | "vocal";
 }
 
-export default function SetList({ setList }: SetListProps) {
-  const { mode } = useMode();
+export default function SetList({ setList, type = "band" }: SetListProps) {
+  const { mode, setMode } = useMode();
+
+  const onIntersection = () => {
+    setMode(type);
+  };
+
+  const observerRef = useObserver<HTMLSpanElement>(onIntersection);
 
   return (
     <div
       className={cn(
-        "flex flex-col items-center justify-center gap-5",
+        "flex flex-col items-center justify-center gap-5 transition-all",
         mode === "band" ? "text-white" : "text-black"
       )}
     >
-      <span className="text-4xl impact">{setList.bandName}</span>
+      <span className="text-4xl impact" ref={observerRef}>
+        {setList.bandName}
+      </span>
 
       {setList.members.length > 0 ? (
         <ul className="flex flex-wrap items-center justify-center gap-2 px-4">

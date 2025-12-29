@@ -27,7 +27,7 @@ function App() {
       </div>
 
       <div className="h-dvh snap-start flex items-center justify-center">
-        <SetList setList={wecandersSetList} />
+        <SetList setList={wecandersSetList} type="vocal" />
       </div>
     </div>
   );
