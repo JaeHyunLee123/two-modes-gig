@@ -18,9 +18,9 @@ export default function SetList({ setList }: SetListProps) {
     >
       <span className="text-4xl impact">{setList.bandName}</span>
 
-      <ul className="flex flex-wrap items-center justify-center gap-2">
+      <ul className="flex flex-wrap items-center justify-center gap-2 px-4">
         {setList.members.map((member, i) => (
-          <li key={i} className="uppercase font-bold">
+          <li key={i} className="uppercase font-bold text-lg">
             {member}
           </li>
         ))}

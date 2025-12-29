@@ -33,7 +33,7 @@ export const halfBreakSetList: SetList = {
 
 export const travlerSetList: SetList = {
   bandName: "Travler",
-  members: [],
+  members: ["현빈", "시환", "우주", "서현", "백호", "은성", "재훈"],
   songs: [
     {
       name: "Triptych",
