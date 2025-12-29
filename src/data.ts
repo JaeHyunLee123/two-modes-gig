@@ -64,7 +64,7 @@ export const travlerSetList: SetList = {
 
 export const wecandersSetList: SetList = {
   bandName: "Wecanders",
-  members: [],
+  members: ["성우", "시관", "혁", "동식", "경은"],
   songs: [
     {
       name: "Triptych",
