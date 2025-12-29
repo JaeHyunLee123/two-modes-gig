@@ -17,11 +17,11 @@ export const halfBreakSetList: SetList = {
       singer: "Nirvana",
     },
     {
-      name: "Good 4 u",
+      name: "good 4 u",
       singer: "Olivia Rodrigo",
     },
     {
-      name: "못 죽는 기사와 비단요럄",
+      name: "못 죽는 기사와 비단요람",
       singer: "LUCY",
     },
     {
@@ -32,7 +32,7 @@ export const halfBreakSetList: SetList = {
 };
 
 export const travlerSetList: SetList = {
-  bandName: "Travler",
+  bandName: "Traveler",
   members: ["현빈", "시환", "우주", "서현", "백호", "은성", "재훈"],
   songs: [
     {
@@ -48,11 +48,11 @@ export const travlerSetList: SetList = {
       singer: "Nirvana",
     },
     {
-      name: "Good 4 u",
+      name: "good 4 u",
       singer: "Olivia Rodrigo",
     },
     {
-      name: "못 죽는 기사와 비단요럄",
+      name: "못 죽는 기사와 비단요람",
       singer: "LUCY",
     },
     {
@@ -63,7 +63,7 @@ export const travlerSetList: SetList = {
 };
 
 export const wecandersSetList: SetList = {
-  bandName: "Wecander",
+  bandName: "Wecanders",
   members: [],
   songs: [
     {
@@ -79,11 +79,11 @@ export const wecandersSetList: SetList = {
       singer: "Nirvana",
     },
     {
-      name: "Good 4 u",
+      name: "good 4 u",
       singer: "Olivia Rodrigo",
     },
     {
-      name: "못 죽는 기사와 비단요럄",
+      name: "못 죽는 기사와 비단요람",
       singer: "LUCY",
     },
     {
