@@ -57,8 +57,8 @@ export const travlerSetList: SetList = {
       singer: "무디 & 새해",
     },
     {
-      name: "이승윤",
-      singer: "Punkanon",
+      name: "Punkanon",
+      singer: "이승윤",
     },
     {
       name: "언젠가 눈물 속의 시간이 지나면",
