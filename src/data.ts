@@ -46,7 +46,7 @@ export const travlerSetList: SetList = {
     },
     {
       name: "디스토피아",
-      singer: "새해",
+      singer: "승아",
     },
     {
       name: "밤",
@@ -54,7 +54,7 @@ export const travlerSetList: SetList = {
     },
     {
       name: "On Your Mark",
-      singer: "무디 & 새해",
+      singer: "무디 & 승아",
     },
     {
       name: "Punkanon",
