@@ -12,52 +12,61 @@ export const halfBreakSetList: SetList = {
       name: "ROCKSTAR",
       singer: "Ado",
     },
-    {
-      name: "Smells like teen spirit",
-      singer: "Nirvana",
-    },
+
     {
       name: "good 4 u",
       singer: "Olivia Rodrigo",
+    },
+    {
+      name: "Marunouchi Sadistic",
+      singer: "Sheena Ringo",
+    },
+    {
+      name: "odoriko",
+      singer: "Vaundy",
     },
     {
       name: "못 죽는 기사와 비단요람",
       singer: "LUCY",
     },
     {
-      name: "Marunouchi Sadistic",
-      singer: "Sheena Ringo",
+      name: "Smells like teen spirit",
+      singer: "Nirvana",
     },
   ],
 };
 
 export const travlerSetList: SetList = {
   bandName: "Traveler",
-  members: ["현빈", "시환", "우주", "서현", "백호", "은성", "재훈"],
+  members: ["gahoe", "encho", "noeul", "seungah", "bam", "moody"],
   songs: [
     {
-      name: "Triptych",
-      singer: "Siam Shade",
+      name: "범람",
+      singer: "Lacuna",
     },
     {
-      name: "ROCKSTAR",
-      singer: "Ado",
+      name: "디스토피아",
+      singer: "새해",
     },
     {
-      name: "Smells like teen spirit",
-      singer: "Nirvana",
+      name: "밤",
+      singer: "밤",
     },
     {
-      name: "good 4 u",
-      singer: "Olivia Rodrigo",
+      name: "On Your Mark",
+      singer: "무디 & 새해",
     },
     {
-      name: "못 죽는 기사와 비단요람",
-      singer: "LUCY",
+      name: "이승윤",
+      singer: "Punkanon",
     },
     {
-      name: "Marunouchi Sadistic",
-      singer: "Sheena Ringo",
+      name: "언젠가 눈물 속의 시간이 지나면",
+      singer: "Broken Valentine",
+    },
+    {
+      name: "무제",
+      singer: "Broken Valentine",
     },
   ],
 };
@@ -67,28 +76,40 @@ export const wecandersSetList: SetList = {
   members: ["성우", "시관", "혁", "동식", "경은"],
   songs: [
     {
-      name: "Triptych",
-      singer: "Siam Shade",
+      name: "바라만 본다",
+      singer: "M.O.M",
     },
     {
-      name: "ROCKSTAR",
-      singer: "Ado",
+      name: "밤, 바다",
+      singer: "최유리",
     },
     {
-      name: "Smells like teen spirit",
-      singer: "Nirvana",
+      name: "만찬가",
+      singer: "tuki",
     },
     {
-      name: "good 4 u",
-      singer: "Olivia Rodrigo",
+      name: "반복",
+      singer: "한요한",
     },
     {
-      name: "못 죽는 기사와 비단요람",
-      singer: "LUCY",
+      name: "Drowning",
+      singer: "WOODZ",
     },
     {
-      name: "Marunouchi Sadistic",
-      singer: "Sheena Ringo",
+      name: "한강에서",
+      singer: "폴킴",
+    },
+    {
+      name: "AKMU 메들리",
+      singer: "AKMU",
+    },
+    {
+      name: "야생화",
+      singer: "박효신",
+    },
+    {
+      name: "찰나가 영원이 될 때",
+      singer: "마크툽",
     },
   ],
 };

@@ -19,15 +19,15 @@ function App() {
       </div>
 
       <div className="h-dvh snap-start flex items-center justify-center">
+        <SetList setList={wecandersSetList} type="vocal" />
+      </div>
+
+      <div className="h-dvh snap-start flex items-center justify-center">
         <SetList setList={travlerSetList} />
       </div>
 
       <div className="h-dvh snap-start flex items-center justify-center">
         <SetList setList={halfBreakSetList} />
-      </div>
-
-      <div className="h-dvh snap-start flex items-center justify-center">
-        <SetList setList={wecandersSetList} type="vocal" />
       </div>
     </div>
   );
