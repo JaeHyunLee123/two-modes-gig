@@ -96,8 +96,8 @@ export const wecandersSetList: SetList = {
       singer: "WOODZ",
     },
     {
-      name: "H1-KEY",
-      singer: "건물 사이에 피어난 장미",
+      name: "건물 사이에 피어난 장미",
+      singer: "H1-KEY",
     },
     {
       name: "한강에서",
