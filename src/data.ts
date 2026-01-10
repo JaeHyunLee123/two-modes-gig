@@ -9,13 +9,12 @@ export const halfBreakSetList: SetList = {
       singer: "Siam Shade",
     },
     {
-      name: "ROCKSTAR",
-      singer: "Ado",
-    },
-
-    {
       name: "good 4 u",
       singer: "Olivia Rodrigo",
+    },
+    {
+      name: "ROCKSTAR",
+      singer: "Ado",
     },
     {
       name: "Marunouchi Sadistic",
